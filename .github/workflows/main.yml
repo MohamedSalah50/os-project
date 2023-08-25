@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - master 
 
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: 'printing folder content(before)'
+        run: ls
+
+      - uses: action/checkout@v3 
+
+      - name: 'printing folder content(after)'
+        run: ls   

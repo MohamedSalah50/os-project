@@ -15,7 +15,7 @@ jobs:
       - name: 'printing folder content(before)'
         run: ls
 
-      - uses: action/checkout@v3 
+      - uses: actions/checkout@v3 
 
       - name: 'printing folder content(after)'
         run: ls   

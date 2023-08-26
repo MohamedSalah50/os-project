@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+background-color: #222;
+color:azure;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cruds{
+    width: 80%;
+    margin:auto;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    margin:10px 0;
+}
+input{
+    width:100%;
+    height:30px;
+    text-align: center;
+    color:#fff;
+    outline:none;
+    border: none;
+    background: #111;
+    border-radius: 5px;
+    margin:4px 4px;
+    padding:2px;
+}
+input:focus{
+    background: #000;
+    scale: 1.1;
+}
+.price input{
+    width:20%;
+}
+#total{
+    background:red;
+    padding:4px 2px;
+    margin:4px;
+}
+#total::before{
+    content:"total = ";
+}
+button{
+    width:100%;
+    height:30px;
+    background:blueviolet;
+    color:#fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:0.5s;
+}
+#deleteall{
+    margin:20px 0;
+    color:rgb(76, 24, 221);
+}
+button:hover{
+    background:#b803ff;
+    letter-spacing: 1px;
+}
+.btnsearch{
+    display:flex;
+    justify-content: space-between;
+}
+.btnsearch button{
+    width:45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table th{
+    text-transform: uppercase;
+    padding:2px;
+}
